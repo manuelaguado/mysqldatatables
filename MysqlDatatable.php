@@ -1,5 +1,5 @@
 <?php
-namespace MysqlDataTables\SSP;
+namespace MysqlDataTables\MysqlDatatable;
 class MysqlDatatable {
 	static function data_output ( $columns, $data, $db )
 	{
