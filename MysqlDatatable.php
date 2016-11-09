@@ -1,5 +1,5 @@
-<?php if ( ! defined( 'URL_APP' ) ) { exit; } ?>
 <?php
+namespace MysqlDataTables\SSP;
 class SSP {
 	static function data_output ( $columns, $data, $db )
 	{
