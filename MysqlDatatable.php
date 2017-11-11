@@ -1,6 +1,6 @@
 <?php
 class SSP {
-	static function data_output ( $columns, $data, $db )
+	function data_output ( $columns, $data, $db )
 	{
 		$out = array();
 		for ( $i=0, $ien=count($data) ; $i<$ien ; $i++ ) {
